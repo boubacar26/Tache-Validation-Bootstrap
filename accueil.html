@@ -28,7 +28,7 @@
 
     <!-- NAVBAR -->
     <header id="header">
-        <nav class="navbar navbar-expand-lg position bg-white  fixed-top w-100 ">
+        <nav class="navbar navbar-expand-lg position bg-white ps-3 pe-3  fixed-top w-100 ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="images/clickup-seeklogo.com.svg" alt=""
                         class="img-fluid logo"></a>
@@ -408,7 +408,7 @@
     </section>
     <!-- SECTION TO MOVE AFTER -->
     <section id="sec">
-        <div class="container mt-5 p-5">
+        <div class="container  mt-5 p-5 border-secondary">
             <div class="row text-center">
                 <h1 class="h1">Perfect fit for every team</h1>
                 <p class="fs-4 p-spe">
@@ -417,19 +417,29 @@
                 </p>
             </div>
             <ul class="nav nav-tabs">
-                <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#pmo"
-                        href="#projects">PMO</a> </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#marketing" href="#marketing">Marketing</a>
+                <li class="nav-item text-center">
+
+                    <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#pmo" href="#projects">
+                        <div><i class="fa fa-window-maximize" aria-hidden="true"></i></div>
+                        PMO
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#product" href="#product">Product</a>
+                <li class="nav-item  text-center">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#marketing" href="#marketing">
+                        Marketing
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#engineering"
-                        href="#engineering">Engineering</a>
+                <li class="nav-item text-center">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#product" href="#product">
+                        Product
+                    </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item  text-center">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#engineering" href="#engineering">
+                        Engineering
+                    </a>
+                </li>
+                <li class="nav-item  text-center">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#agencies" href="#agencies">Agencies</a>
                 </li>
                 <li class="nav-item">
@@ -442,13 +452,14 @@
                 <div class="tab-pane active" id="pmo">
                     <div class="row mt-5 px-5">
                         <div class="col-lg-6">
-                            <h5>Deliver projects on time, every time</h5>
-                            <h6>Get teams running more efficiently with a complete project management solution.</h6>
-                            <div class="div">
+                            <h5 class="p-spe fw-bold">Deliver projects on time, every time</h5>
+                            <h6 class="mt-3">Get teams running more efficiently with a complete project management
+                                solution.</h6>
+                            <div class="div mt-4">
                                 <p class="check d-flex justify-content-center align-items-center"><i
                                         class="fa fa-check "></i>
                                 </p>
-                                <p class="ms-3">Reduce delivery time with custom template</p>
+                                <p class="ms-3 p-spe">Reduce delivery time with custom template</p>
 
                             </div>
 
@@ -456,13 +467,13 @@
                                 <p class="check d-flex justify-content-center align-items-center"><i
                                         class="fa fa-check "></i>
                                 </p>
-                                <p class="ms-3">Track effort to impact with OKR planning</p>
+                                <p class="ms-3 p-spe">Track effort to impact with OKR planning</p>
                             </div>
                             <div class="div">
                                 <p class="check d-flex justify-content-center align-items-center"><i
                                         class="fa fa-check "></i>
                                 </p>
-                                <p class="ms-3"> Manage complexe projects at scale</p>
+                                <p class="ms-3 p-spe"> Manage complexe projects at scale</p>
                             </div>
                             <div class="div">
                                 <div>
@@ -487,19 +498,44 @@
                         </div>
                         <div class="col-lg-6 bg-tertiary">
                             <div class="mytest"></div>
-                            <div class="border border-secondary rounded">
-                                <p><i class="fa fa-cog me-4" aria-hidden="true"></i>Flexible workflows for every team
-                                </p>
+                            <div class="border border-secondary rounded-3">
+                                <div class="d-flex text-center mt-4 ">
+                                    <div><i class="fa fa-cog ms-2 me-4 d-flex justify-content-center align-items-center"
+                                            aria-hidden="true"></i></div>
+                                    <p class="fs-6 p-spe">Flexible workflows for every team
+                                    </p>
+
+                                </div>
                                 <hr>
-                                <p><i class="fa fa-file-text me-4" aria-hidden="true"></i> Tasks, docs, spreadsheets,
-                                    and more</p>
+                                <div class="d-flex text-center mt-4">
+                                    <div>
+                                        <i class="fa fa-file-text me-4 ms-2 me-4 d-flex justify-content-center align-items-center"
+                                            aria-hidden="true"></i>
+                                    </div>
+                                    <p class="fs-6 p-spe">
+                                        Tasks, docs,
+                                        spreadsheets,
+                                        and More
+                                    </p>
+                                </div>
                                 <hr>
-                                <p>Resource and workload optimization</p>
+                                <div class="d-flex text-center mt-4">
+                                    <div><i class="fa fa-square  me-4 ms-2 me-4 d-flex justify-content-center align-items-center"
+                                            aria-hidden="true"></i></div>
+                                    <p class="fs-6 p-spe">Resource and workload optimization</p>
+                                </div>
                                 <hr>
-                                <p>Dashboard and insights</p>
+                                <div class="d-flex text-center mt-4">
+                                    <div><i class="fa fa-tachometer  me-4 ms-2 me-4 d-flex justify-content-center align-items-center"
+                                            aria-hidden="true"></i></div>
+                                    <p class="fs-6 p-spe">Dashboard and insights</p>
+                                </div>
+
                             </div>
                             <div class="mt-3">
-                                <button class="btn deux w-100 text-white p-2 rounded">Use this solution</button>
+                                <button class="btn deux w-100 text-white p-2 rounded">Use this solution
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -935,7 +971,7 @@
                                     <i class="fa fa-toggle-on fs-1 ms-5 " aria-hidden="true"></i>
                                 </div>
                             </div>
-                            <div class="row align-items-center">
+                            <div class="row align-items-center bg-white text-primary">
                                 <div class="col">
                                     <span class="fs-1 material-symbols-outlined">
                                         event_upcoming
@@ -1084,7 +1120,7 @@
                 </div>
                 <div class="col-lg-4 text-white">
                     <img src="images/uptime_badge-white.svg" alt="" class="img-fluid">
-                    <span class="fw-bold"> Highest level of uptime</span> the last 12 months
+                    <span class="fw-bold"> Highest level of uptime</span> the last 12
                 </div>
             </div>
             <hr>
