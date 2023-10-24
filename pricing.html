@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing/atelier de validation</title>
+    <link rel="stylesheet" href="pricing.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+  
+    <header>
+      <nav class="navbar navbar-expand-lg position bg-white ps-3 pe-3  fixed-top w-100 ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="accueil.html"><img src="images/clickup-seeklogo.com.svg" alt="" class="img-fluid logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-between align-items-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Solutions
+                </a>
+                <ul class="dropdown-menu solution">
+                  <div class="row mt-3 mx-2">
+                    <div class="col-md-6 team">
+                      <h2 class="mb-4">TEAM</h2>
+                      <div class="row mt-3">
+                        <div class="col-md-4 d-flex">
+                          <i class="bi bi-box"></i>
+                          <div class="texte">
+                            <h4>Software Development</h4>
+                            <p>Manage product roadmaps from ideation to release.</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex">
+                          <i class="bi bi-megaphone"></i>
+                          <div class="texte">
+                            <h4>Marketing</h4>
+                            <p>Manage product roadmaps from ideation to release.</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex">
+                          <i class="bi bi-gear"></i>
+                          <div class="texte">
+                            <h4>Operations</h4>
+                            <p>Manage product roadmaps from ideation to release.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <div class="col-md-4 d-flex">
+                          <i class="bi bi-box"></i>
+                          <div class="texte">
+                            <h4>Engineering</h4>
+                            <p>Manage product roadmaps from ideation to release.</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex">
+                          <i class="bi bi-pen"></i>
+                          <div class="texte">
+                            <h4>Design</h4>
+                            <p>Manage product roadmaps from ideation to release.</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex">
+                          <i class="bi bi-person-fill"></i>
+                          <div class="texte">
+                            <h4>Human Resources</h4>
+                            <p>Manage product roadmaps from ideation to release.</p>
+                          </div>
+                        </div>
+                        <button class="btn btn-danger mt-3">See All <i class="bi bi-arrow-right my-0 mx-2"></i></button>
+                      </div>
+                    </div>
+                    <div class="col-md-3 case">
+                      <h2 class="mb-4">USE CASE</h2>
+                      <div class="d-flex">
+                        <i class="bi bi-list-check"></i>
+                        <div class="texte">
+                          <h4>Project Management</h4>
+                          <p>Manage product roadmaps from ideation to release.</p>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                        <i class="bi bi-globe2"></i>
+                        <div class="texte">
+                          <h4>Remote Work</h4>
+                          <p>Manage product roadmaps from ideation to release.</p>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                        <i class="bi bi-people"></i>
+                        <div class="texte">
+                          <h4>CRM</h4>
+                          <p>Manage product roadmaps from ideation to release.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 type">
+                      <h2 class="mb-4">TYPE</h2>
+                      <div class="d-flex mt-3">
+                        <i class="bi bi-duffle"></i>
+                        <div class="texte">
+                          <h4>Enterprise</h4>
+                          <p>Manage product roadmaps from ideation to release.</p>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                        <i class="bi bi-lightbulb"></i>
+                        <div class="texte">
+                          <h4>Startup</h4>
+                          <p>Manage product roadmaps from ideation to release.</p>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                        <i class="bi bi-heart"></i>
+                        <div class="texte">
+                          <h4>Non-Profit</h4>
+                          <p>Manage product roadmaps from ideation to release.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Learn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Enterprise</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <div class="mx-5">Contact Sales</div>
+              <div><button class="btn-contact text-white border-0 rounded-3 shadow  p-2">Sign up</button>
+              </div>
+              <div><button class="bg-tertiary border-0 rounded-3 p-2 mx-2 shadow "> Login</button> </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!---------------------------------------------------- main --------------------------------------------------->
+    <main>
+        <section id="sec1">
+            <div class="container py-5">
+                <div class="row gy-4">
+                  <div class="deux">
+                        <ul class="nav nav-pills my-5" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-yearly-tab" data-bs-toggle="pill" data-bs-target="#pills-yearly" type="button" role="tab" aria-controls="pills-yearly" aria-selected="true">yearly</button>
+                          </li>
+                
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-monthly-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly" type="button" role="tab" aria-controls="pills-monthly" aria-selected="false">Monthly</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-yearly" role="tabpanel" aria-labelledby="pills-yearly-tab" tabindex="0">
+                           <div class="d-flex justify-content-around">
+                            <div class="text-center w-25 px-2 col1">
+                              <p class="vert fw-bold">FREE FOREVER</p>
+                              <p>Best for personal use</p>
+                              <p class="vert fw-bold fs-1">FREE</p>
+                              <p class="text-secondary">Forever</p>
+                              <button class=" text-light bgg-vert border-0  rounded w-100 py-2">Free Forever</button>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                            </div>
+                            <div class="text-center w-25 px-2 col2">
+                              <p class="pink fw-bold">UNLIMITED</p>
+                              <p>Best for personal use</p>
+                              <p class="pink fw-bold fs-1">$7</p>
+                              <p class="text-secondary">For member per month</p>
+                              <button class=" text-light bgg-pink border-0  rounded w-100 py-2">GET STARTED</button>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p class="purple">AL COMPATIBLE</p>
+                            </div>
+                            <div class="text-center w-25 px-2 col3">
+                              <p class="blue fw-bold">BUSINESS</p>
+                              <p>Best for mid sized-teams</p>
+                              <p class="fs-1 blue">$12</p>
+                              <p class="text-secondary">For member per month</p>
+                              <button class=" text-light bgg-blue border-0  rounded w-100 py-2">GET STARTED</button>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p class="purple">AL COMPATIBLE</p>
+                             </div>
+                          <div class="text-center w-25 px-2 col4">
+                            <p class="vert fw-bold">Entreprise</p>
+                            <p class="text-secondary">Best for many larger tems</p>
+                            <i class="bi bi-pc-display-horizontal"></i>
+                            <button class="btn btn-dark w-100 py-2">contact sales</button>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p class="purple">AL COMPATIBLE</p>
+                          </div>
+
+                           </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab" tabindex="0">
+                           <div class="d-flex justify-content-around">
+                            <div class="text-center w-25 px-2 col1">
+                              <p class="vert fw-bold">FREE FOREVER</p>
+                              <p>Best for personal use</p>
+                              <p class="vert fw-bold fs-1">FREE</p>
+                              <p class="text-secondary">Forever</p>
+                              <button class=" text-light bgg-vert border-0  rounded w-100 py-2">Free Forever</button>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                            </div>
+                            <div class="text-center w-25 px-2 col2">
+                              <p class="pink fw-bold">UNLIMITED</p>
+                              <p>Best for personal use</p>
+                              <p class="pink fw-bold fs-1">$10</p>
+                              <p class="text-secondary">For member per month</p>
+                              <button class=" text-light bgg-pink border-0  rounded w-100 py-2">GET STARTED</button>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p class="purple">AL COMPATIBLE</p>
+                            </div>
+                            <div class="text-center w-25 px-2 col3">
+                              <p class="blue fw-bold">BUSINESS</p>
+                              <p>Best for mid sized-teams</p>
+                              <p class="fs-1 blue">$19</p>
+                              <p class="text-secondary">For member per month</p>
+                              <button class=" text-light bgg-blue border-0  rounded w-100 py-2">GET STARTED</button>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p>100MB storage</p>
+                              <p>unilated take</p>
+                              <p>lorem ipsom dolar</p>
+                              <p class="purple">AL COMPATIBLE</p>
+                             </div>
+                          <div class="text-center w-25 px-2 col4">
+                            <p class="vert fw-bold">Entreprise</p>
+                            <p class="text-secondary">Best for many larger tems</p>
+                            <i class="bi bi-pc-display-horizontal"></i>
+                            <button class="btn btn-dark w-100 py-2">contact sales</button>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p>100MB storage</p>
+                            <p>unilated take</p>
+                            <p>lorem ipsom dolar</p>
+                            <p class="purple">AL COMPATIBLE</p>
+                          </div>
+                           </div>
+                          </div>        
+                        </div>
+                  
+                    
+                </div>
+            </div>
+        </section>
+<!--------------------------------------------------- section2 ----------------------------------------------->
+        <section id="sec2">
+            <div class="container py-5">
+                <div class="row g-3 ">
+                    <div class="col-12 col-md-5">
+                        <div>
+                          <img src="images/ClickUP_Logo.jpg" alt="" class="img-fluid petit">
+                          <button class="pink border-0">NEW ADD-ON</button>
+                          <p>Add to any paid plan for $5 per member per month,
+
+                            and transform the way you work, forever!</p>
+                            <p><i class="bi bi-lightbulb purple"></i> 100+ expert-crafted prompts and and inputs tailored for every role</p>
+                            <p><i class="bi bi-lightning-charge purple"></i> Generate ideas, action items, documents, and summaries in seconds</p>
+                            <p> <i class="bi bi-pencil-square purple"></i> Fast-track your writing and workflows with consistency and clarity</p>
+                            <button class="bgg-pink p-2 fs-5 border-0 rounded text-light">Get started</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div>
+                            <img src="images/Capture d’écran (600).png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--------------------------------------------------- section3 ----------------------------------------------->
+        <section class=" container py-5" id="sec3">
+          <div class="accordion mx-auto" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-heade" id="panelsStayOpen-headingOne" >
+                <button class="accordion-button" class="border-0 bg-light purple" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  
+                  <span class="fs-5 fw-bold purple">Complete Feature list</span>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row py-4 border-bottom border-secondary">
+                      <div class="col-12 col-lg-4">
+                        <div>
+                          <h1 class="fw-bold"><i class="bi bi-chevron-up text-light fs-1 p-2 py-1 rounded bgg-purple"></i> Usage</h1>
+                          <h3 class="py-2 fw-bold">Tasck</h3>
+                          <h3 class="py-2 fw-bold">speaces</h3>
+                          <h3 class="py-2 fw-bold">List/space</h3>
+                          <h3 class="py-2 fw-bold">Folders/space</h3>
+                          <h3 class="py-2 fw-bold">Custome view</h3>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>FREE</P>
+                              <span class="px-3 py-2 sp1 rounded">FREE FOREVER</span>
+                              <p class="fs-4 pt-3">Unlimited</p>
+                              <p class="fs-4"> 5spaces</p>
+                              <p class="fs-4">100</p>
+                              <p class="fs-4">100</p>
+                              <p class="fs-4">Unlimited</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>UNLIMITED</P>
+                              <span class="px-3 py-2 sp2 rounded">GET STARTED</span>
+                              <p class="fs-4 pt-3">Unlimited</p>
+                              <p class="fs-4">Unlimited</p>
+                              <p class="fs-4">200</p>
+                              <p class="fs-4">200</p>
+                              <p class="fs-4">Unlimited</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>BUSINESS</P>
+                              <span class="px-3 py-2 sp3 rounded">GET STARTED</span>
+                              <p class="fs-4 pt-3">Unlimited</p>
+                              <p class="fs-4">Unlimited</p>
+                              <p class="fs-4">400</p>
+                              <p class="fs-4">400</p>
+                              <p class="fs-4">Unlimited</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>ENTREPRISE</P>
+                              <span class="px-3 py-2 sp4 rounded">Contact Sales</span>
+                              <p class="fs-4 pt-3">Unlimited</p>
+                              <p class="fs-4">Unlimited</p>
+                              <p class="fs-4">Unlimited</p>
+                              <p class="fs-4">Unlimited</p>
+                              <p class="fs-4">Unlimited</p>
+                              
+                            </div>
+                          </div>
+                         
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="row py-4 border-bottom border-secondary">
+                      <div class="col-12 col-lg-4">
+                        <div>
+                          <h1 class="fw-bold"><i class="bi bi-chevron-up text-light fs-1 p-2 py-1 rounded bgg-purple"></i> Essentials</h1>
+                          <h3 class="py-2 fw-bold">All compatible</h3>
+                          <h3 class="py-2 fw-bold">Fille Storage</h3>
+                          <h3 class="py-2 fw-bold">Privacy and Sharing</h3>
+                          <h3 class="py-2 fw-bold">Guets</h3>
+                          <h3 class="py-2 fw-bold">Custome folder</h3>
+                          <h3 class="py-2 fw-bold">Template everything</h3>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>FREE</P>
+                              <span class="px-3 py-2 sp1 rounded">FREE FOREVER</span> <br> <br> 
+                              <span class="rose"><i class="bi bi-x-lg   p-3"></i></span> <br> <br> <br>
+                              <p class="fs-4"> 100MB</p>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <p class="fs-4">Guests must be given full access (no permissions)</p>
+                              <p class="fs-4 py-3">60 uses</p>
+                              <span class="rose"><i class="bi bi-x-lg   p-3"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <p class="fs-4">60 uses</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>UNLIMITED</P>
+                              <span class="px-3 py-2 sp2 rounded">GET STARTED</span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br>
+                              <p class="fs-4">Unlimited</p> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="rose"><i class="bi bi-x-lg   p-3"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>BUSINESS</P>
+                              <span class="px-3 py-2 sp3 rounded">GET STARTED</span> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <p class="fs-4">Unlimited</p> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                             
+                              
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="px-2 text-center">
+                              <P>ENTREPRISE</P>
+                              <span class="px-3 py-2 sp4 rounded">Contact Sales</span> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br>
+                             
+                              <p class="fs-4 pt-3">Unlimited</p> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                              <span class="bgg-vert rounded-circle p-2"><i class="bi bi-check-lg fs-5 vert bg-white px-1 rounded-circle"></i></span> <br> <br> <br>
+                             
+                              
+                            </div>
+                          </div>
+                         
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </section>
+<!--------------------------------------------------- section4 ----------------------------------------------->
+        <section id="sec4" class="py-5">
+          <p class="purple text-center">TESTIMONIALS</p>
+          <h1 class="text-center">See Why ClickUp is the future of work</h1>
+          <img src="images/badge2.png" alt="" class="w-100">
+          <img src="images/badge1.png" alt=""  class="flex mx-auto">
+        </section>
+        <!----------------------- une autre partie ------------------------------>
+        <section class="sec4-b">
+          <div class="container py-5 my-5">
+            <a href="#" class="text-dark fs-3 text-decoration-none">
+              <img src="images/Capture d’écran (604).png" alt="" style="width: 80px ; height: 80px;">
+              <p class="fs-3 fw-bold">No other system gives me the ease and flexibility to adobte my strategy  think change  as clickup</p>
+            </a>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <i class="bi bi-arrow-left p-2"></i>
+              </li>
+              <li class="page-item"><a class="page-link bgg-purple" href="#"></a></li>
+              <li class="page-item"><a class="page-link" href="#"></a></li>
+              <li class="page-item"><a class="page-link" href="#"></a></li>
+              <li class="page-item"><a class="page-link" href="#"></a></li>
+              <li class="page-item"><a class="page-link" href="#"></a></li>
+              <li class="page-item">
+                <i class="bi bi-arrow-right p-2"></i>
+              </li>
+            </ul>
+          </nav>
+         
+        </section>
+<!--------------------------------------------------- section5 ----------------------------------------------->
+        <section id="sec5" class="py-5">
+            <p class="purple text-center">FAQ</p>
+            <h1 class="text-center">You've got question.We've got answares.</h1>
+            <div class="container pt-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button py-4 vert" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         
+                          <span  class="fw-bold fs-3"> Can i upgrade my selfe or do i have to upgrade my entire workspace</span>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          
+                          <span  class="fw-bold fs-3">Does adding guests my workdpace affect my plan or how i'am billed ?</span>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              
+                           <span  class="fw-bold fs-3">What payment methods do you accept?</span>                     
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore</p>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                         
+                         <span class="fw-bold fs-3"> What is your refund policy? </span>                       
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <button class="bgg-purple text-light px-3 py-2 rounded border-0 mt-4 text-center mx-auto d-flex justify-content-center">Load More</button>
+        </section>   
+    </main>
+<!---------------------------------------------------- footer ------------------------------------------------->
+    <footer>
+      <section id="footer-wrapper" class="">
+        <div class="container shadow rounded-4 bg-white">
+          <div class=" d-flex align-items-center justify-content-between">
+            <div class="d-flex mt-5">
+              <div class="img">
+                <img src="images/logo.svg" alt="">
+              </div>
+              <div>
+                <h1 class="fw-bolder foot-title">One app to replace them all</h1>
+                <p class="mt-3">All of your work in one place: Tasks, Docs, Chat, Goals, & more.</p>
+              </div>
+            </div>
+            <div class="mt-5">
+              <button class="btn5 border-0 text-white p-3 rounded-3 fw-bold shadow mb-5">Free Forever</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container  foot-text ">
+        <div class="row justify-content-center  text-center">
+          <div class="col-lg-4 text-white">
+            <img src="images/support_badge-white.svg" alt="" class="img-fluid">
+            <span class="fw-bold">Free training </span>& 24-hours support
+          </div>
+          <div class="col-lg-4 text-white">
+            <img src="images/security_badge-white.svg" alt="" class="img-fluid">
+            Serious about <span class="fw-bold"> security & privacy</span>
+          </div>
+          <div class="col-lg-4 text-white">
+            <img src="images/uptime_badge-white.svg" alt="" class="img-fluid">
+            <span class="fw-bold"> Highest level of uptime</span> the last 12
+          </div>
+        </div>
+        <hr>
+        <div class="row text-white">
+          <div class="col">
+            <h5>CLICKUP</h5>
+            <p>Download</p>
+            <p>Careers</p>
+            <p>About us</p>
+            <p>Product Roadmap</p>
+            <p>Press</p>
+            <p>Clients</p>
+            <p>Brand</p>
+            <p>Verified</p>
+            <p>Affilate & Referrals</p>
+          </div>
+          <div class="col">
+            <h5>RESOURCES</h5>
+            <p>Help Docs</p>
+            <p>On-Demand Demo</p>
+            <p>Webinars</p>
+            <p>Contact Us</p>
+            <p>Templates</p>
+            <p>Import</p>
+            <p>API</p>
+            <p>Consultants</p>
+            <p>Partners</p>
+          </div>
+          <div class="col">
+            <h5>FEATURES</h5>
+            <p>Gantt Chart</p>
+            <p>Dashboards</p>
+            <p>Native Time Tracking</p>
+            <p>Mind Maps</p>
+            <p>Automations</p>
+            <p>Notepad</p>
+            <p>Integrations</p>
+            <p>Email</p>
+            <p>To-Do List</p>
+          </div>
+          <div class="col">
+            <h5>COMPARE</h5>
+            <p>vs Monday</p>
+            <p>vs Asana</p>
+            <p>vs Jira</p>
+            <p>vs Trello</p>
+            <p>vs Airtable</p>
+            <p>vs Notion</p>
+            <p>vs Basecamp</p>
+            <p>vs Wrike</p>
+            <p>vs MS Project</p>
+          </div>
+          <div class="col">
+            <h5>BLOG</h5>
+            <p>Software Team Hub</p>
+            <p>Agency Hub</p>
+            <p>PM Software Guide</p>
+            <p>Newsletter</p>
+            <p>Podcast</p>
+            <div class="mt-5">
+              <img src="images/app-store-badge-white.png" alt="" class="img-fluid w-75 mt-5">
+            </div>
+            <div class="mt-2">
+              <img src="images/google-play-badge-white.png" alt="" class="img-fluid w-75">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-flex align-items-center">
+              <div>
+                <img src="images/logo.svg" alt="" class="img-fluid logo-foot">
+              </div>
+              <div class="text-white fw-bold fs-3 ms-2">
+                ClickUp
+              </div>
+            </div>
+            <div class="text-white mt-2">
+              © 2023 ClickUp |
+              Security |
+              Your Privacy |
+              Terms
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-end">
+            <div> <i class="fa fa-linkedin-square text-white fs-3 ms-3"></i></div>
+            <div><i class="fa fa-facebook-square text-white fs-3 ms-3"></i></div>
+            <div><i class="fa fa-instagram text-white fs-3 ms-3"></i></div>
+            <div><i class="fa fa-twitter text-white fs-3 ms-2"></i></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>
