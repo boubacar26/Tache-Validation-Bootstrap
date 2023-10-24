@@ -1,0 +1,246 @@
+.cercle{
+    border: 1px solid rgb(14, 104, 52);
+    border-radius: 50%;
+}
+.fa-check{
+    color:rgb(14, 104, 52) ;
+    font-size: 14px;
+    padding: 3px;
+
+}
+.wide{
+    font-size: 12px;
+}
+.bleu{
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+}
+/* visibility */
+.color{
+    background-color: rgba(245, 237, 237, 0.842);
+    border-radius: 30px;
+}
+.sales{
+   
+   width: 200px;
+
+}
+ .goals{
+    height: 500px;
+    position: relative;
+    left: 50px;
+} 
+.img .goals{
+    width: 2000px;
+
+}
+.fa-arrow-right{
+    color: blueviolet;
+
+}
+.carre{
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: 20px;
+    height: 600px;
+}
+.sales:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+.fa-trophy{
+    background-color: white;
+    padding: 20px;
+    color: blueviolet ;
+    font-size: 25px;
+}
+/* teamwork */
+.teamwork{
+    background-color: rgb(182, 218, 216);
+    border-radius: 30px;
+}
+.traits:hover{
+    border-bottom: 3px solid rgb(43, 214, 226);
+}
+.souligner{
+    border: 2px solid rgb(43, 214, 226);
+    width: 100px;
+
+}
+/* management */
+.MANAGEMENT{
+    background-color: rgb(182, 218, 216);
+    border-radius: 30px;
+
+}
+.work{
+    background-color: rgb(14, 104, 52);
+    border-radius: 20px;
+    margin: 20px;
+
+}
+.bi-grid{
+    background-color: white;
+    padding: 10px;
+    color: rgb(14, 104, 52) ;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+.checklists{
+    position: relative;
+    left: 50px;
+}
+.carte{
+    background-color:white ;
+    border-radius: 10px;
+}
+.imodji{
+    background-color: rgb(14, 104, 52) ;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50px;
+
+}
+.visualize{
+    width: 250px;
+    height: 200px;
+}
+.moncard{
+    height: 315px;
+}
+.mon{
+    border-radius: 10px;
+}
+.devices{
+    background-color: white;
+    border-radius: 10px;
+}
+.flex{
+    color: rgb(14, 104, 52) ;
+}
+.solution{
+     color: rgb(43, 214, 226 );   
+
+}
+.cles {
+    background-color:rgb(43, 214, 226 ) ;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50px
+
+}
+.flexo {
+    color: rgb(43, 214, 226 );
+
+}
+.peu{
+    border-radius: 10px;
+}
+/* security */
+.security{
+ background-color:  rgba(245, 237, 237, 0.842);
+ border-radius: 30px;
+}
+.sso{
+    text-decoration: none;
+    color: black;
+}
+
+
+.smailtrait:hover{
+
+    border-bottom: 2px solid blueviolet;
+}
+.soulignement{
+    border: 2px solid blueviolet;
+    width: 100px;
+
+}
+.qqs{
+    width: 70px;
+    height: 70px;
+}
+.qq{
+    width: 100px;
+    height: 40px;
+
+}
+.bring{
+   
+    font-size: 15px;
+}
+/* controle */
+.controle{
+    background-color:rgb(182, 218, 216);
+    border-radius: 30px;
+
+}
+.permis:hover{
+    border-bottom: 2px solid rgb(43, 214, 226 );
+    border-radius: none;
+
+}
+.soulignements{
+    border: 2px solid rgb(43, 214, 226 );
+    width: 100px;
+
+}
+/* entreprise */
+.entreprise{
+
+    background-color: rgb(255, 228, 246);
+    border-radius: 30px;
+    margin:20px ;
+}
+.plan{
+    color:rgb(233, 20, 162) ;
+}
+.team{
+    position: relative;
+    bottom: 60px;
+}
+.mon{
+    border: none;
+    border-radius: 10px;
+}
+.pbotom{
+  margin-bottom:  100px;
+}
+/* .araw{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+
+} */
+.sorts{
+     border: 1px solid gray; 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+    /* background-color:  none; */
+
+}
+.sort{
+     border: 1px solid gray; 
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+    /* background-color:  none; */
+
+
+
+}
