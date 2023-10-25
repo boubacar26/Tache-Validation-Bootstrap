@@ -87,6 +87,8 @@
     color: rgb(14, 104, 52) ;
     font-size: 30px;
     border-radius: 10px;
+    position: relative;
+    top: 20px;
 
 }
 .checklists{
@@ -104,6 +106,12 @@
     font-size: 30px;
     border-radius: 10px;
     width: 50px;
+
+}
+.icontelephone{
+    position: relative;
+    top: 20px;
+
 
 }
 .visualize{
@@ -192,7 +200,7 @@
     width: 100px;
 
 }
-/* entreprise */
+/* **********************************entreprise******************************* */
 .entreprise{
 
     background-color: rgb(255, 228, 246);
@@ -213,15 +221,7 @@
 .pbotom{
   margin-bottom:  100px;
 }
-/* .araw{
-    border: 1px solid gray;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    align-items: center;
-    padding: 5px;
 
-} */
 .sorts{
      border: 1px solid gray; 
     border-radius: 50%;
@@ -229,18 +229,100 @@
     height: 40px;
     align-items: center;
     padding: 5px;
-    /* background-color:  none; */
+  
 
 }
 .sort{
-     border: 1px solid gray; 
+     border: 1px solid black; 
     border-radius: 50%; 
     width: 40px;
     height: 40px;
     align-items: center;
     padding: 5px;
-    /* background-color:  none; */
+   
+}
+.noir{
+    color:black;
+}
+
+marquee {
+    width: 100%;
+}
+.bi-circle-fill{
+  color:rgb(233, 20, 162)  ;
+}
+ .touch{
+    font-size:10px ;
+
+} 
+.iconeRose{
+    color: rgb(233, 20, 162)  ;
+}
+/* support */
+.support{
+    color: blueviolet;
+
+}
+.contcolor{
+    background-color:blueviolet ;
+    border-radius: 50%;
+    /* padding: 50px; */
+
+}
+.contcolore{
+ background-color: rgb(233, 20, 162) ;
+ border-radius: 50%;
+ padding: 40px; 
 
 
+}
+.conteur{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+/* .dbb{
+    display: flex;
+    display: block;
+    justify-self: center;
+    align-items: center;
+
+} */
+/* setup */
+.setup{
+    background-color: rgb(182, 218, 216);
+    border-radius: 30px;
+    margin:20px ;
+
+}
+.bek{
+    background-color: white;
+    border-radius: 20px;
+}
+.inclu{
+    background-color:rgb(14, 104, 52) ;
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    margin: 15px;
+    padding: 10px;
+}
+.cercles{
+    border: 3px solid rgb(14, 104, 52);
+    border-radius: 50%;
+
+}
+.bekes{
+    height: 720px;
+}
+.iconeverte{
+    color:rgb(14, 104, 52) ;
+}
+.bages{
+    position:  relative;
+    bottom: 240px; 
+    width: 250px;
+    height: 250px;
 
 }
