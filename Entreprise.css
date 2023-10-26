@@ -255,6 +255,9 @@ marquee {
     font-size:10px ;
 
 } 
+.golive{
+    color:rgb(233, 20, 162) ;
+}
 .iconeRose{
     color: rgb(233, 20, 162)  ;
 }
@@ -332,13 +335,13 @@ marquee {
 .moins{
     background-color: white;
     border-radius: 10px;
-    width: 400px;
+    width: 350px; 
     
 }
 .ken-kawachi{
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+     width: 60px;
+    height: 60px; 
 }
 .drole{
     color: gray;
@@ -350,11 +353,50 @@ marquee {
     height: 500px;
 }
 .courte{
-    height: 400px;
+    height: 450px;
 
 }
 .DED{
     position: relative;
     top: 20px;
 
+}
+.largement{
+    width: 500px;
+}
+@media screen and (max-width: 768px) {
+    /* .moncard{
+        width: 18rem;
+    } */
+   .mon{
+        width: 98%;
+
+    } 
+   .that{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .team{
+        position: initial;
+    }
+    .checklists{
+        position: initial;
+
+    }
+    .goals{
+        position: initial;
+    }
+    .carre{
+        height: 1000px;
+
+    }
+   
+  
+      
+       
+        
+
+    
+    
 }
