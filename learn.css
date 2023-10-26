@@ -1,0 +1,248 @@
+
+/*-----------------index learn-------------*/
+.nav-item .nav-link{
+    color: #111;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.nav-item .nav-link:hover{
+    cursor: pointer;
+    color: blue;
+}
+.bouton-nav .light:hover{
+cursor: pointer;
+background-color: blue;
+}
+.bouton-nav .secondary:hover{
+    cursor: pointer;
+    background-color:#D3D3D3;
+    }
+    .bouton-nav .btn:hover{
+        cursor: pointer;
+        background-color:#D3D3D3;
+        }
+.light{background-color: #fff;color: #111;padding: 5px;border-radius: 7px;padding-left: 10px;padding-right: 10px;border: #fff solid 1px;background-color: #fff;}
+.secondary{background-color: #fff;color: #111;padding: 5px;border-radius: 7px;padding-left: 10px;padding-right: 10px;border: #fff solid 1px;background-color: #fff;}
+.btn{background-color: #fff;color: #111;padding: 5px;border-radius: 7px;padding-left: 10px;padding-right: 10px;}
+
+
+.custom-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px; color: #C71585;
+}
+.custom-icon #icon {color: #C97EFD;font-size: 30px;}
+
+.custom-icon #icon2 {color:blue;font-size:20px;}
+.custom-icon #icon3 {color:green;margin-right: 20px;font-size:20px;}
+.custom-icon #icon4 {color: orange;margin-left: -95px;font-size:20px;}
+.custom-icon #icon5 {color:red;;margin-left: -75px;font-size:20px;}
+.custom-icon #icon6 {color: magenta;font-size:20px;}
+.custom-icon #icon7 {color: pink;font-size:20px;}
+
+
+ #b:hover {cursor: pointer;background-color: #C97EFD;border-radius: 10px;;opacity: 0.4;}
+ #b1:hover {cursor: pointer;background-color:pink;border-radius: 10px;;opacity: 0.4;}
+ #b2:hover {cursor: pointer;background-color:blue;border-radius: 10px;;opacity: 0.4;}
+ #b3:hover {cursor: pointer;background-color:green;border-radius: 10px;;opacity: 0.4;}
+#b4:hover {cursor: pointer;background-color: orange;border-radius: 10px;;opacity: 0.4;width: 20px;}
+ #b5:hover {cursor: pointer;background-color:red;border-radius: 10px;;opacity: 0.4;}
+ #b6:hover {cursor: pointer;background-color: red;;border-radius: 10px;width:50px;;opacity: 0.4;}
+ #b7:hover {cursor: pointer;background-color: #ffe4e4;
+    border-radius: 15px;;opacity: 0.4;}
+.custom-icon i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.custom-icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.custom-icon p {
+    font-size: 14px;
+    margin-bottom: 0; 
+}
+
+/*-------section2------*/
+.row img {
+    width: 120px;
+    height: 45px;
+    border-radius: 7px;
+    margin-bottom: 10px; 
+}
+/*-----------section2 process---------*/
+.icon-container {
+    display: flex;
+    
+}
+
+.icon-container i {
+    margin: 0 10px; 
+    transition: transform 0.3s, color 0.3s; }
+
+.icon-container i:hover {
+    transform: translateY(-5px); 
+    color: blue; 
+}
+.section {
+    margin: 0 20px; 
+    background: linear-gradient(to right, white, #C97EFD, white); 
+}
+section {
+    background: linear-gradient(to right, #C97EFD, #fff, white);
+    
+    
+}
+/*---------------Ultimate---------------------*/
+
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    text-align: center;
+}
+.card-content {
+    padding: 20px;
+}
+.image {
+    
+    width: 30%;
+}
+.text {
+float: right;
+    width: 60%;
+}
+.section2 h5{
+    margin-right:30px;
+}
+.section2 p{font-size:15px;}
+.section2 h6{font-size: 17px;}
+.section3 .btn{
+    background-color: #C71585;
+    width: 100px;
+    margin-top: 10px;
+    height: 44px;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 100px;
+    margin-top :3px;;
+}
+.section3 input{
+    height: 50px;
+    border-radius: 5px;
+}
+/*----------services-----------*/
+
+
+/*---footer-------*/
+.footer{
+    background-color: #fff;
+}
+/*-------clickup.html---------*/
+.navbar-nav a:hover{
+    border-bottom:2px solid blue;
+    }
+.clickup-btn{
+    z-index: 1;
+    margin-top: -55px;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 15px;
+    font-weight: bold;
+
+    
+}
+.clic{
+    font-weight: bold;
+    margin-left: 25px;
+}
+.clici{
+    padding: 12px;
+    border-radius: 50%;
+    color: blue;
+    border: blue solid 1px;
+}
+.clicrow .custom-col:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.align{
+    position: relative;
+    bottom:100px;
+    margin-left:90px;
+}
+.align img{
+
+    width: 140px;
+    height: 150px;
+}
+/*---------Import---------------*/
+.import h1{
+    font-size:50px;
+}
+/*------------------------Responsive------------*/
+/* Pour les écrans plus petits que 768px */
+@media (max-width: 1200px) {
+    .row img {
+        width: 100px;
+        height: 35px;
+        margin: auto;
+        padding: auto;
+    }
+    .card {
+        width: 100%;
+    }
+    .image {
+        width: 100px;
+    }
+    .text {
+        width: 60%;
+    }
+    .custom-icon {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .custom-icon img {
+        display:block;
+        width: 100%;
+        flex-direction:column;
+        
+    }
+    .custom-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 20px; color: #C71585;
+    }
+    .custom-icon #icon {display: flex;flex-direction: column;}
+    
+    .custom-icon #icon2 {display: flex;flex-direction: column;}
+    .custom-icon #icon3 {display: flex;flex-direction: column;margin-right: 0px;font-size:20px;}
+    .custom-icon #icon4 {display: flex;flex-direction: column;margin-left:0px;font-size:20px;}
+    .custom-icon #icon5 {display: flex;flex-direction: column;margin-left:0px;font-size:20px;}
+    .custom-icon #icon6 {display: flex;flex-direction: column;font-size:20px;}
+    .custom-icon #icon7 {display: flex;flex-direction: column;font-size:20px;}
+    
+/*---------*/
+
+.custom-col{
+    display: block;
+    flex-direction: column;
+}
+}
+
+
