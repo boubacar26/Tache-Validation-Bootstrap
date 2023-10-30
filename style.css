@@ -1,19 +1,21 @@
 .navbar-nav .solution{
     width: 99.6vw;
     /* height: 100vh; */
-    margin-left: -181%;
+    margin-left: -248%;
     border-radius: 0;
-    border-top: 2px solid #d7cfcf;
-    border-bottom: 2px solid #d7cfcf;
+    border-top: 1px solid #d7cfcf;
+    border-bottom: 1px solid #d7cfcf;
     margin-top: 10%;
 }
 
 .navbar-nav .solution h2{
     font-size: 18px;
+    font-weight: bold;
 }
 
 .navbar-nav .solution h4{
     font-size: 16px;
+    font-weight: bold;
 }
 
 .navbar-nav .solution button{
@@ -38,5 +40,57 @@
 
 .navbar-nav .solution .team,
 .navbar-nav .solution .case{
-    border-right: 2px solid #d7cfcf;
+    border-right: 1px solid #d7cfcf;
+}
+
+.navbar-nav .solution p{
+    font-size: 13px;
+    margin-bottom: 26%;
+}
+
+.navbar-nav .solution .team .col-md-4{
+    padding: 1%;    
+}
+
+.navbar-nav .solution .team .col-md-4:hover{
+    background-color: #ffe4e4;
+    border-radius: 15px;
+}
+
+.navbar-nav .solution .case .d-flex{
+    padding: 1%;    
+}
+
+.navbar-nav .solution .case .d-flex:hover{
+    background-color: #c8ffc8;
+    border-radius: 15px;
+}
+
+.navbar-nav .solution .type .d-flex{
+    padding: 1%;    
+}
+
+.navbar-nav .solution .type .d-flex:hover{
+    background-color: #0000ff26;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-nav .solution {
+        width: 95vw;
+        margin-left: 0%;
+        border-top: none;
+        border-bottom: none;
+        margin-top: 0%;
+    }
+
+    .navbar-nav .solution .team,
+    .navbar-nav .solution .case{
+        border-right: none;
+    }
 }
