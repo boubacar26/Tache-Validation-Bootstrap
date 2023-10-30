@@ -172,9 +172,9 @@
 }
 #sec4 .flex{
     width: 250px;
-    height: 230px;
+    height: 290px;
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 230px;
+    bottom: 300px;
 }
